@@ -1,1 +1,1 @@
-{"base": "ebb2917", "parent": "debian/rolling/gscam", "previous": "bf2b1bb", "trim": "", "trimbase": ""}
+{"base": "ddc5dc8", "parent": "debian/humble/gscam", "previous": "39983fd", "trim": "", "trimbase": ""}

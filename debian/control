@@ -1,0 +1,12 @@
+Source: ros-foxy-gscam
+Section: misc
+Priority: optional
+Maintainer: Jonathan Bohren <jbo@jhu.edu>
+Build-Depends: debhelper (>= 9.0.0), libgstreamer-plugins-base1.0-dev, libgstreamer1.0-dev, ros-foxy-ament-cmake, ros-foxy-ament-cmake-gtest <!nocheck>, ros-foxy-ament-lint-auto <!nocheck>, ros-foxy-ament-lint-common <!nocheck>, ros-foxy-camera-calibration-parsers, ros-foxy-camera-info-manager, ros-foxy-class-loader, ros-foxy-cv-bridge, ros-foxy-image-transport, ros-foxy-rclcpp, ros-foxy-rclcpp-components, ros-foxy-sensor-msgs, ros-foxy-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-foxy-gscam
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libgstreamer-plugins-base1.0-dev, libgstreamer1.0-dev, ros-foxy-camera-calibration-parsers, ros-foxy-camera-info-manager, ros-foxy-class-loader, ros-foxy-cv-bridge, ros-foxy-image-transport, ros-foxy-rclcpp, ros-foxy-rclcpp-components, ros-foxy-sensor-msgs, ros-foxy-ros-workspace
+Description: A ROS camera driver that uses gstreamer to connect to devices such as webcams.

@@ -1,4 +1,4 @@
-# GSCam ![example branch parameter](https://github.com/clydemcqueen/gscam/actions/workflows/build_test.yml/badge.svg?branch=ros2)
+# GSCam ![ROS2 CI](https://github.com/ros-drivers/gscam/actions/workflows/build_test.yml/badge.svg?branch=ros2)
 
 This is a ROS2 package originally developed by the [Brown Robotics
 Lab](http://robotics.cs.brown.edu/) for broadcasting any
@@ -13,9 +13,8 @@ GSCam supports the following versions of ROS2 and GStreamer:
 |---|---|---|
 | Foxy | 20.04 | 1.16 |
 | Galactic | 20.04 | 1.16 |
-| Rolling | 20.04 | 1.16 |
-
-Note: Rolling will migrate to Ubuntu 22.04 and GStreamer 1.18 in preparation for Humble Hawksbill.
+| Humble | 22.04 | 1.20 |
+| Rolling | 22.04 | 1.20 |
 
 #### Dependencies
 
@@ -60,6 +59,7 @@ Note that GStreamer is licensed under the LGPL, and GStreamer plugins have their
 * `frame_id`: The [tf2](https://index.ros.org/p/tf2/) frame ID
 * `reopen_on_eof`: Re-open the stream if it ends (EOF)
 * `sync_sink`: Synchronize the app sink (sometimes setting this to `false` can resolve problems with sub-par framerates)
+* `use_gst_timestamps`: Use the GStreamer buffer timestamps for the image message header timestamps (setting this to `false` results in header timestamps being the time that the image buffer transfer is completed)
 * `image_encoding`: image encoding ("rgb8", "mono8", "yuv422", "jpeg")
 * `use_sensor_data_qos`: The flag to use sensor data qos for camera topic(image, camera_info)
 

@@ -1,0 +1,12 @@
+Source: ros-humble-gscam
+Section: misc
+Priority: optional
+Maintainer: Jonathan Bohren <jbo@jhu.edu>
+Build-Depends: debhelper (>= 9.0.0), camera-calibration-parsers-tools, image-transport-tools, libcamera-calibration-parsers-dev, libcamera-info-manager-dev, libclass-loader-dev, libcv-bridge-dev, libgstreamer-plugins-base1.0-dev, libgstreamer1.0-dev, libimage-transport-dev, libsensor-msgs-dev, python3-camera-calibration-parsers, python3-cv-bridge, python3-sensor-msgs, ros-humble-ament-cmake, ros-humble-ament-cmake-gtest <!nocheck>, ros-humble-ament-lint-auto <!nocheck>, ros-humble-ament-lint-common <!nocheck>, ros-humble-rclcpp, ros-humble-rclcpp-components, ros-sensor-msgs, ros-humble-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-humble-gscam
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, camera-calibration-parsers-tools, image-transport-tools, libcamera-calibration-parsers-dev, libcamera-info-manager-dev, libclass-loader-dev, libcv-bridge-dev, libgstreamer-plugins-base1.0-dev, libgstreamer1.0-dev, libimage-transport-dev, libsensor-msgs-dev, python3-camera-calibration-parsers, python3-cv-bridge, python3-sensor-msgs, ros-humble-rclcpp, ros-humble-rclcpp-components, ros-sensor-msgs, ros-humble-ros-workspace
+Description: A ROS camera driver that uses gstreamer to connect to devices such as webcams.

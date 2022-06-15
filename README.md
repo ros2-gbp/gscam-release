@@ -1,3 +1,26 @@
+## gscam (humble) - 2.0.2-1
+
+The packages in the `gscam` repository were released into the `humble` distro by running `/home/daisuke/.local/bin/bloom-release --rosdistro humble --track humble gscam` on `Wed, 15 Jun 2022 19:30:41 -0000`
+
+The `gscam` package was released.
+
+Version of package(s) in repository `gscam`:
+
+- upstream repository: https://github.com/ros-drivers/gscam.git
+- release repository: https://github.com/ros2-gbp/gscam-release.git
+- rosdistro version: `2.0.1-2`
+- old version: `2.0.1-2`
+- new version: `2.0.2-1`
+
+Versions of tools used:
+
+- bloom version: `0.11.1`
+- catkin_pkg version: `0.5.2`
+- rosdep version: `0.21.0`
+- rosdistro version: `0.9.0`
+- vcstools version: `0.1.42`
+
+
 ## gscam (galactic) - 2.0.2-1
 
 The packages in the `gscam` repository were released into the `galactic` distro by running `/home/daisuke/.local/bin/bloom-release --rosdistro galactic --track galactic gscam` on `Wed, 15 Jun 2022 19:27:33 -0000`

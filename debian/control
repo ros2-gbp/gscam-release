@@ -1,0 +1,12 @@
+Source: ros-iron-gscam
+Section: misc
+Priority: optional
+Maintainer: Jonathan Bohren <jbo@jhu.edu>
+Build-Depends: debhelper (>= 9.0.0), libgstreamer-plugins-base1.0-dev, libgstreamer1.0-dev, ros-iron-ament-cmake, ros-iron-ament-cmake-gtest <!nocheck>, ros-iron-ament-lint-auto <!nocheck>, ros-iron-ament-lint-common <!nocheck>, ros-iron-camera-calibration-parsers, ros-iron-camera-info-manager, ros-iron-class-loader, ros-iron-cv-bridge, ros-iron-image-transport, ros-iron-rclcpp, ros-iron-rclcpp-components, ros-iron-sensor-msgs, ros-iron-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-iron-gscam
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libgstreamer-plugins-base1.0-dev, libgstreamer1.0-dev, ros-iron-camera-calibration-parsers, ros-iron-camera-info-manager, ros-iron-class-loader, ros-iron-cv-bridge, ros-iron-image-transport, ros-iron-rclcpp, ros-iron-rclcpp-components, ros-iron-sensor-msgs, ros-iron-ros-workspace
+Description: A ROS camera driver that uses gstreamer to connect to devices such as webcams.

@@ -1,0 +1,12 @@
+Source: ros-kilted-gscam
+Section: misc
+Priority: optional
+Maintainer: Jonathan Bohren <jbo@jhu.edu>
+Build-Depends: debhelper (>= 9.0.0), libgstreamer-plugins-base1.0-dev, libgstreamer1.0-dev, ros-kilted-ament-cmake, ros-kilted-ament-cmake-gtest <!nocheck>, ros-kilted-ament-lint-auto <!nocheck>, ros-kilted-ament-lint-common <!nocheck>, ros-kilted-camera-calibration-parsers, ros-kilted-camera-info-manager, ros-kilted-class-loader, ros-kilted-cv-bridge, ros-kilted-image-transport, ros-kilted-rclcpp, ros-kilted-rclcpp-components, ros-kilted-sensor-msgs, ros-kilted-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-kilted-gscam
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libgstreamer-plugins-base1.0-dev, libgstreamer1.0-dev, ros-kilted-camera-calibration-parsers, ros-kilted-camera-info-manager, ros-kilted-class-loader, ros-kilted-cv-bridge, ros-kilted-image-transport, ros-kilted-rclcpp, ros-kilted-rclcpp-components, ros-kilted-sensor-msgs, ros-kilted-ros-workspace
+Description: A ROS camera driver that uses gstreamer to connect to devices such as webcams.

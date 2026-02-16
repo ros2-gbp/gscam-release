@@ -1,3 +1,26 @@
+## gscam (rolling) - 2.0.4-1
+
+The packages in the `gscam` repository were released into the `rolling` distro by running `/usr/bin/bloom-release -r rolling -t rolling gscam` on `Mon, 16 Feb 2026 04:27:01 -0000`
+
+The `gscam` package was released.
+
+Version of package(s) in repository `gscam`:
+
+- upstream repository: https://github.com/ros-drivers/gscam.git
+- release repository: https://github.com/ros2-gbp/gscam-release.git
+- rosdistro version: `2.0.2-4`
+- old version: `2.0.3-2`
+- new version: `2.0.4-1`
+
+Versions of tools used:
+
+- bloom version: `0.13.0`
+- catkin_pkg version: `1.1.0`
+- rosdep version: `0.26.0`
+- rosdistro version: `1.0.1`
+- vcstools version: `0.1.42`
+
+
 ## gscam (rolling) - 2.0.3-2
 
 The packages in the `gscam` repository were released into the `rolling` distro by running `/usr/bin/bloom-release -r rolling -t rolling gscam` on `Mon, 16 Feb 2026 02:17:43 -0000`

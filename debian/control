@@ -1,0 +1,12 @@
+Source: ros-rolling-gscam
+Section: misc
+Priority: optional
+Maintainer: Jonathan Bohren <jbo@jhu.edu>
+Build-Depends: debhelper (>= 9.0.0), gstreamer1.0-plugins-good, libgstreamer-plugins-base1.0-dev, libgstreamer1.0-dev, ros-rolling-ament-cmake, ros-rolling-ament-cmake-gtest <!nocheck>, ros-rolling-ament-lint-auto <!nocheck>, ros-rolling-ament-lint-common <!nocheck>, ros-rolling-camera-calibration-parsers, ros-rolling-camera-info-manager, ros-rolling-class-loader, ros-rolling-image-transport, ros-rolling-rclcpp, ros-rolling-rclcpp-components, ros-rolling-sensor-msgs, ros-rolling-ros-workspace
+Homepage: https://index.ros.org/p/gscam/#rolling
+Standards-Version: 3.9.2
+
+Package: ros-rolling-gscam
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, gstreamer1.0-plugins-good, libgstreamer-plugins-base1.0-dev, libgstreamer1.0-dev, ros-rolling-camera-calibration-parsers, ros-rolling-camera-info-manager, ros-rolling-class-loader, ros-rolling-image-transport, ros-rolling-rclcpp, ros-rolling-rclcpp-components, ros-rolling-sensor-msgs, ros-rolling-ros-workspace
+Description: A ROS camera driver that uses gstreamer to connect to devices such as webcams.
